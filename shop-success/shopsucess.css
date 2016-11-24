@@ -1,0 +1,135 @@
+body, p, ul, li, tr, td,h1,h2 {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+  a:hover {
+    text-decoration: none; }
+
+input {
+  outline: none; }
+
+* {
+  font-family: "Microsoft YaHei"; 
+  box-sizing: border-box;
+}
+  * input {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -o-box-shadow: none;
+    -moz-box-shadow: none; }
+
+ul {
+  list-style: none; }
+
+a:active {
+  text-decoration: none; }
+
+body{
+  width: 100%;
+  
+  padding: 0 4%;
+}
+html{
+  font-size: 100px;
+}
+#purchaseService{
+  width: 100%;
+  height: 100%;
+  padding-top: 0.3rem;
+  font-size: 0.16rem;
+}
+.page-title{
+  font-size: 0.2rem;
+  font-weight: bold;
+  color: #e8583e;
+}
+.page-text{
+  color: #272636;
+  font-size: 0.18rem;
+  padding-top: 0.1rem;
+  padding-bottom: 0.2rem;
+}
+.page-text mark{
+  color:#e8583e;
+  background: none 
+}
+.page-header h1{
+  font-size:0.16rem;
+  color: #272636;
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: row;
+}
+.page-header-price{
+  font-size: 0.14rem;
+  margin-right: auto;
+}
+.page-header small{
+  font-size: 0.14rem;
+  font-weight: normal;
+  align-items: flex-end;
+
+}
+.page-header .page-header-num{
+  color: #e8583e;
+}
+.page-body li{
+  font-size:0.14rem;
+  color: #666666;
+  background-image: url(../images/haveservice.png);
+  background-size: 0.14rem;
+  padding-left: 0.2rem;
+  background-repeat: no-repeat;
+  background-position:left center;
+  margin-bottom: 0.06rem;
+}
+.becomeMember{
+  border: 0.01rem solid #999999;
+  border-radius: 2px;
+  padding:0.125rem;
+  margin-bottom: 0.2rem;
+  position: relative;
+}
+.page-header{
+  margin-bottom: 0.1rem;
+}
+.becom 55eMember-label{
+  width: 0.17rem;
+  height: 0.17rem;
+  position: absolute;
+  right: 0.125rem;
+  top:-0.08rem;
+  background-position: center;
+  background-size: cover; 
+  background-image: url(../images/shoprel.png);
+}
+.serviceagreement{
+  font-size: 0.14rem;
+  color: #999999;
+}
+.serviceagreement a{
+  color: #e8583e;
+}
+
+#purchaseService .enjoymenber{
+ margin-bottom: 0.1rem;
+}
+.purchase{
+  width: 100%;
+  height: 0.38rem;
+  background: #e8583e;
+  text-align: center;
+  line-height: 0.38rem;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  font-size: 0.16rem;
+  display: none; 
+} 
+
+
+
+
+

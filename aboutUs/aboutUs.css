@@ -1,0 +1,248 @@
+/* 
+
+  关于我们
+ */
+    *{
+    	box-sizing: border-box;
+    	font-family: '微软雅黑';
+    	text-align: justify;
+    }
+    h1,p{
+    	margin:0;
+    }
+	body{
+	    padding: 0;
+		margin: 0;
+		position: relative;
+	}
+	
+	@media screen and (min-width: 320px){
+	  html{
+		font-size: 85.3px;
+	  }	
+      .pageadvantage-text{
+        font-size: 12px;
+      }
+	}
+	@media screen and (min-width: 375px){
+	  html{
+		font-size: 100px;
+	  }	
+	}
+	@media screen and (min-width: 414px) {
+		html{
+			font-size: 110.4px;
+		}
+	}
+    @media screen and (min-width: 700px) {
+        html{
+            font-size: 120px;
+        }
+    }
+
+	
+ 
+    .page{
+    	width: 100%;
+    	height: 100%;
+    	padding:0 4%;
+    	padding-right:4%;
+        position: relative;
+    }
+    .page-pull{
+        width: 3.45rem;
+        height: 0.5rem;
+        padding:0 4%;
+        position: absolute;
+        bottom:0.3rem;
+        background-image: url(../images/pull.png);
+        background-size: 0.15rem;
+        background-position: center;
+        background-repeat: no-repeat;
+    } 
+    .page-text{
+    	margin-top: 0.15rem;
+    	margin-bottom: 0.25rem;
+    }
+    #pageone{
+	background: url(../images/aboutUs_02.png);
+	background-size: cover;
+	background-position: center 43px;
+	padding-top:1.53rem;
+    }
+    #pageone .page-title{
+    	width: 2.77rem;
+    	height:1rem;
+    	background-image: url(../images/solgn.png);
+    	background-repeat: no-repeat;
+    	background-position: center;
+    	background-size: cover;
+        margin: 0 auto; 
+ 
+    }
+    .content{width: 100%;}
+    #pageone .page-content{
+    	width: 100%;
+    	font-size: 0.16rem;
+        padding-left: 8%;
+        padding-right:10%;
+        text-align: justify;
+        position: relative;
+        background-image: url(../images/pagecontent.png);
+        background-size: 0.19rem auto;
+        background-repeat: no-repeat;
+        margin-top:1.1rem;  
+    }
+    /*21%*/
+    .page-header{
+    	padding-top: 0.93rem;
+    	font-size:0.2rem;
+    }
+    .page-header h1{
+    	font-size: 0.2rem;
+    }
+    .pageadvantage-text{
+    	font-size: 0.16rem;
+    }
+    .page-text{
+    	font-size: 0.16rem;
+    }
+    .pageadvantage-con{
+    	
+    	display: flex;
+    	flex-direction: row;
+    	align-content: flex-start;
+    	margin-bottom: 0.4rem; 
+    }
+    .page-img{
+    	width: 0.35rem;
+        background-repeat: no-repeat;
+        background-position: left top;
+
+     	 
+    }
+
+ 
+    .page-imgone{
+    	background-image: url(../images/aboutUs_05.png);
+        background-size: 0.35rem;
+    }
+    .page-imgtwo{
+    	background-image: url(../images/aboutUs_09.png);
+        background-size: 0.28rem;
+    }
+    .page-imgthree{
+    	background-image: url(../images/aboutUs_13.png);
+        background-size: 0.29rem;
+    }
+    .page-imgfour{
+        background-image: url(../images/aboutUs_16.png);
+        background-size: 0.27rem;
+    }
+    .page-imgfive{
+    	background-image: url(../images/aboutUs_19.png);
+        background-size: 0.3rem;
+    }
+    .page-imgsix{
+    	background-image: url(../images/page-5.png);
+        background-size: 0.35rem;
+    }
+    .page-imgseven{
+    	background-image: url(../images/page-2.png);
+        background-size: 0.35rem;
+    }
+    .page-imgengint{
+    	background-image: url(../images/page-4.png);
+        background-size: 0.35rem;
+    }
+    .page-imgnine{
+    	background-image: url(../images/aboutUs_22.png);
+        background-size: 0.3rem;
+    }
+    .pageadvantage-text{
+        padding-left: 0.225rem;
+        text-align: justify;
+        font-size: 0.15rem;
+        flex: 1;
+        
+    }
+    #pagethree{
+    	padding-top: 0.93rem;
+    }
+    .page-imgtext{
+    	font-size: 0.16rem;
+    }
+    #pagefour .page-img,#pagesix .page-img{
+    	height: 0.37rem;
+    }
+    #pagefive .page-content,#pagesix .page-img{
+       font-size: 0.16rem;
+    }
+    #header{
+      position: absolute;
+      left: 0;
+      top: 0;
+      height: 0.43rem;
+      background: black;
+      display: flex;
+      display: -webkit-flex;
+      flex-direction: row;
+      justify-content: center;
+      width: 100%;
+      padding: 0 4%;
+    }
+    .headerleft{
+    	width: 0.35rem;
+        background-repeat: no-repeat;
+        background-position: left center;
+        background-size: 0.09rem;
+    	background-image: url(../images/page-return.png);
+    }   
+    .headerright{
+    	flex: 1;
+    	text-align: center;
+    	line-height: 0.43rem;
+    	font-size: 0.16rem;
+    	color: white;
+    }
+    #pagefive .page-header1{
+    	padding-top: 0.2rem;
+    	padding-bottom:0.225rem;
+    }
+    #pagefour .pageadvantage-con{
+    	margin-bottom: 0.225rem;
+    }
+    #pagefive .pageadvantage-con,#pagesix .pageadvantage-con{
+    	margin-bottom: 0.225rem;
+    }
+    #pagesix .page-content{
+    	padding-top: 0.93rem;
+    }
+    #pagesix{
+    	background-image: url(../images/aboutUs_24.png);
+    	background-repeat: no-repeat;
+    	background-position:  center;
+    	background-size: cover;}
+      @media screen and (max-width: 340px){
+      .page-header{
+        padding-top: 0.8rem;
+      }
+      .pageadvantage-text{
+        font-size: 12px;
+      }
+     #pagefive .page-header1{
+        padding-top: 0;
+      }
+      .page-header h1{
+        font-size: 15px;
+      }
+    }
+
+     
+
+    
+
+  
+   
+    
+
