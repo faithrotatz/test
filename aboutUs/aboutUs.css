@@ -67,8 +67,8 @@
     #pageone{
 	background: url(../images/aboutUs_02.png);
 	background-size: cover;
-	background-position: center 43px;
-	padding-top:1.53rem;
+	background-position: center ;
+	padding-top:1rem;
     }
     #pageone .page-title{
     	width: 2.77rem;
@@ -95,7 +95,7 @@
     }
     /*21%*/
     .page-header{
-    	padding-top: 0.93rem;
+    	padding-top: 0.5rem;
     	font-size:0.2rem;
     }
     .page-header h1{
@@ -167,7 +167,7 @@
         
     }
     #pagethree{
-    	padding-top: 0.93rem;
+    	padding-top: 0.5rem;
     }
     .page-imgtext{
     	font-size: 0.16rem;
@@ -216,7 +216,7 @@
     	margin-bottom: 0.225rem;
     }
     #pagesix .page-content{
-    	padding-top: 0.93rem;
+    	padding-top: 0.5rem;
     }
     #pagesix{
     	background-image: url(../images/aboutUs_24.png);
